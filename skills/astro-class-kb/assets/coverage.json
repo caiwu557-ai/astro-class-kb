@@ -1,0 +1,19 @@
+{
+  "snapshot_at": "2026-10-25T20:00:01.029099-07:00",
+  "directory_entries": 360,
+  "public_nodes": 359,
+  "navigation_only_entries": 1,
+  "records": 12129,
+  "pages_needing_visual_reading": 1846,
+  "index_status_counts": {
+    "公开文档快照": 33,
+    "公开首页列出的课程入口；正文仅在线浏览器读取，未导出": 1,
+    "在线浏览器读取；本包仅含目录": 29,
+    "页码/幻灯片关键词定位；原文在线核对": 143,
+    "分卷原文件入口": 154
+  },
+  "not_public_or_unverified_nodes": 4,
+  "failed_indexes": 0,
+  "scope": "公开正文按共享设置核验；公开首页列出的权限不明课程仅保留导航。PDF/PPT为无序关键词索引，未复制整本教材正文。不跟进私有Base、邮箱和外站。",
+  "freshness": "快照不自动更新；最新内容通过公开浏览器核对。"
+}

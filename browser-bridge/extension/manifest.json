@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Astro 班级知识库阅读桥",
+  "version": "0.1.1",
+  "minimum_chrome_version": "110",
+  "description": "将已公开的班级知识库阅读页连接到自己的 Agent；只读、无云服务。",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://xcnmfu3da215.feishu.cn/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "连接知识库阅读助手"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; connect-src 'self' http://127.0.0.1:*"
+  }
+}
